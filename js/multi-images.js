@@ -52,7 +52,7 @@ AFRAME.registerComponent("markers_start",{
       videoEl.setAttribute("response-type", "arraybuffer");
       videoEl.setAttribute("preload", "true");
       videoEl.setAttribute("allow", "autoplay");
-      videoEl.setAttribute("autoplay", "true");
+      videoEl.setAttribute("autoplay", "false");
       videoEl.setAttribute("webkit-playsinline", "true");
       videoEl.setAttribute("playsinline", "true");
       videoEl.setAttribute("loop", "true");
