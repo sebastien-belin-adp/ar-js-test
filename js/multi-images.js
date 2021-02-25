@@ -31,7 +31,7 @@ AFRAME.registerComponent("markers_start",{
     var sceneEl = document.querySelector("a-scene");
     
     // List of the images
-    for(var i = 0; i < 1; i++) {
+    for(var i = 0; i < 3; i++) {
       var url = "resources/nftls/img-" + i;
       // console.log(url);
       imagesURLArray.push(url);
@@ -41,7 +41,7 @@ AFRAME.registerComponent("markers_start",{
       videosURLArray.push(videoUrl);
     }
 
-    for(var k = 0; k < 1; k++) {
+    for(var k = 0; k < 3; k++) {
 
       // Adding assetsEl and videos for each elements in the list
       var assetsEl = document.createElement("a-assets");
