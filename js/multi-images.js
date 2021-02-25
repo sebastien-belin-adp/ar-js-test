@@ -1,6 +1,6 @@
-//Multi Images WebAR-AR.js and Aframe
+// Multi Images WebAR-AR.js and Aframe
 
-//Global Variable
+// Global Variable
 var imagesNameArray=[];
 var imagesURLArray=[];
 var videosURLArray=[];
